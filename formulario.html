@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+
+<body>
+<script>
+        function myFunction() {document.getElementById("agree").innerHTML = "I agreed to provide the information";
+        }
+        </script>
+<form>
+<h1>Tell us about you</h1>
+<br>
+<button onclick="myFunction()">I agree</button>
+
+<p id="agree"></p>
+<br>
+<br>
+<div class="Names">
+Name <input type="text" name="firstname"> <br>
+<br>
+Family name  <input type="text" name="familyname"> <br>
+<br>
+Password  <input type="password" name="password"> <br>
+<br>
+</div>
+
+<div class="languages">
+Which language do you prefer? <br>
+
+<input type="radio" name="language" value="Spanish" > Spanish <br>
+<input type="radio" name="language" value="English" > English <br>
+<input type="radio" name="language" value="Italian" > Italian <br>
+
+<br>
+</div>
+<div class="hobbies">
+Tell us about your hobbies <br>
+
+<input type="checkbox" name="skills" value="dancing"> DancingL <br>
+<input type="checkbox" name="skills" value="cooking"> Cooking <br>
+<input type="checkbox" name="skills" value="Singing"> Singing <br>
+<input type="checkbox" name="skills" value="reading"> Reading <br>
+<input type="checkbox" name="skills" value="sports"> Sports <br>
+
+</div>
+
+<h3>Additional Information</h3>
+<br>
+Select yout favorite color
+<input type="color" name="favcolor"> <br>
+<br>
+<br>
+
+When is your birthday?
+<input type="date" name="Birthday"> <br>
+<br>
+<br>
+<br>
+
+Which is your lucky number?
+<input type="number" min="0" max="99">
+<br>
+<br>
+</form>
+</body>
+
+<footer>
+<p>Thanks for answering</p>
+</footer>

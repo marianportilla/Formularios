@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    padding-left: 30px;
+    color: purple;
+}
+
+.Names {
+    background-color: white;
+    color: blue;
+    font-size: large;
+    padding-left: 40px;
+}
+
+.languages {
+    background-color: lightblue;
+    color:purple;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.hobbies {
+    background-color: white;
+    color: blue;
+    font-size: large;
+    padding-left: 40px;
+}
+
+footer {
+    background-color: rosybrown;
+    color: black;
+    font-size: x-large;
+}
